@@ -1,0 +1,117 @@
+.modal {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin-top: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.containerModal {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 70vw;
+    height: 80vh;
+    background-color: antiquewhite;
+    border: solid 5px goldenrod;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    height: 90%;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.modalDatos {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    align-content: flex-start;
+    justify-content: space-around;
+    height: 45%;
+}
+
+.btnClose {
+    width: 50px;
+    height: 50px;
+    font-size: 2rem;
+    font-weight: bolder;
+    background-color: transparent;
+}
+
+.containerBtn {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.deportistaGeneral {
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.deportistaDatos {
+    font-size: 2rem;
+}
+
+.deportistaImg {
+    border: solid 5px goldenrod;
+    width: 210px;
+    height: 210px;
+}
+
+.deportistaImg>img {
+    width: 200px;
+    height: 200px;
+}
+
+br {
+    border: solid 5px goldenrod;
+}
+
+.modalParrafo {
+    flex: 2 1 10%;
+}
+
+.modalParrafo>h3 {
+    font-size: 3rem;
+    font-weight: bolder;
+    padding: 15px;
+}
+
+.modalParrafo>p {
+    padding: 15px;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.modalEstadisticas {
+    width: 45%;
+    height: 90%;
+    border: solid 5px goldenrod;
+    background-color: #e7c45b;
+}
+
+.modalEstadisticas>h3 {
+    font-size: 3rem;
+    font-weight: bolder;
+    padding: 15px;
+}
+
+.containerEstats {
+    display: flex;
+    font-size: 2rem;
+    font-weight: 500;
+    flex-direction: column;
+    height: 80%;
+    width: 80%;
+    padding: 15px;
+    margin-top: 50px;
+    justify-content: space-around;
+}

@@ -1,0 +1,51 @@
+h3 {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.containerCards {
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+    gap: 35px;
+    width: 90vw;
+    margin: 56px;
+}
+
+.containerCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 12px;
+    width: 500px;
+    height: 500px;
+    background-color: thistle;
+}
+
+.containerPerson {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 80%;
+}
+
+.containerButton {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.imgPerson {
+    width: 200px;
+    height: 200px;
+}
+
+.buttonCard {
+    width: 120px;
+    height: 40px;
+    border-radius: 32px;
+    background-color: goldenrod;
+    margin-left: 12px;
+}

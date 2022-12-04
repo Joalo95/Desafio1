@@ -1,0 +1,12 @@
+.Footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+    background-color: antiquewhite;
+}
+
+.Footer>img {
+    width: 100vw;
+    height: 700px;
+}
